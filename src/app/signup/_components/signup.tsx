@@ -1,8 +1,9 @@
 "use client";
 
-import { signUpWithCredentials } from "@/app/_actions";
-import { AddonFieldInput, AddonFieldPrefix } from "@/app/signup/_components/input";
+import { AddonFieldInput, AddonFieldPrefix } from "./input";
+
 import { Button } from "@/components/ui/button";
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
